@@ -1,0 +1,80 @@
+.larp{
+    position: absolute;
+    background-color: black;
+    color:aliceblue;
+    width: 200px;
+    height: 100px;
+    right: 45vw;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    
+}
+.charmenubutt{
+font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    height: 50 pc;
+
+}
+#deckmenusecond{
+    right: 1500px;
+}
+#deckmenu{
+    font-size: 20px;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+.charselectmenubutt{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    height: 50 pc;
+
+}
+.mapmenubutt{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    height: 50 pc;
+
+}
+#mapmenu{
+    visibility: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.mainmenubutt{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    height: 50 pc;
+
+}

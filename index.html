@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slay the larp</title>
+</head>
+<body>
+
+
+    <menu id="deckmenu" class="larp">
+        <h2>Build Your Starting Deck</h2>
+        <p id="deck-counter">Cards Selected: 0 / 5</p>
+        
+        <div class="deck-builder-container" style="display: flex; gap: 20px;">
+    
+            <div class="builder-section">
+                <h3>Available Cards (Click to add)</h3>
+                <div id="available-cards-grid" class="card-grid"></div>
+            </div>
+            
+    
+            <div class="builder-section" id = "deckmenusecond">
+                <h3>Your Custom Deck (Click to remove)</h3>
+                <div id="custom-deck-grid" class="card-grid"></div>
+            </div>
+        </div>
+        
+
+        <button id="confirm-deck-btn" disabled onclick="saveAndProceed()">Confirm Deck</button>
+    </menu>
+
+    
+    <menu id="charselectmenu" class="larp" style="visibility: hidden;">
+        <ul>
+            <li><button id="ironguy" class="charselectmenubutt">ironguy</button></li>
+        </ul>
+    </menu>
+
+    <menu id="charmenu" class="larp">
+        <button id="select" class="charmenubutt">Select Character</button>
+        <button id="formdeck" class="charmenubutt">Make Deck</button>
+    </menu>
+
+    <menu id="mapmenu" class="larp">
+        <ul>
+            <li><button id="towerenter" class="mapmenubutt">Tower</button></li>
+        </ul>
+    </menu>
+
+    <menu class="larp" id="mainmenu">
+        <ul>
+            <li><button id="mapmenuselect" class="mainmenubutt">map</button></li>
+            <li><button id="charmenuselect" class="mainmenubutt">character</button></li>
+        </ul>
+    </menu>
+
+    <!-- Game Engines and State -->
+    <script src="player.js"></script>
+    <script src="cardengine.js"></script>
+    <script src="mainmenu.js"></script>
+</body>
+</html>
