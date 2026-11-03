@@ -35,5 +35,20 @@ class card {
         return cardDiv;
     }
 }
+function displayCards(container, cards, onClick = null) {
+    container.innerHTML = "";
+
+    cards.forEach(card => {
+        const cardNode = card.createNode();
+
+        if (onClick) {
+            cardNode.addEventListener("click", () => {
+                onClick(card);
+            });
+        }
+
+        container.appendChild(cardNode);
+    });
+}
 
 let bash = new card("images/bash.png", "Bash", 5, 0, "mana", 1, (c) => `Deals <strong>${c.basedmg * player.mults + player.bonuses}</strong> damage.`);
