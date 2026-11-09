@@ -12,7 +12,7 @@ function deckenterhandler(){
         curmenu = "deckmenu"
           cardwidth =  ,,j
          displayCards(
-        availableCardsGrid,
+        availablecardsgrid,
         card.cards,
         addCardToDeck
     );
