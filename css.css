@@ -78,3 +78,9 @@ ul{
     height: 50 pc;
 
 }
+
+.cardcost{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

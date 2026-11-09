@@ -10,7 +10,7 @@ function deckenterhandler(){
         charmenu.style.visibility = "hidden"
         deckmenu.style.visibility = "visible"
         curmenu = "deckmenu"
-
+          cardwidth =  ,,j
          displayCards(
         availableCardsGrid,
         card.cards,
